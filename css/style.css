@@ -73,6 +73,7 @@ h4{
 
 .new-price{
   color: red;
+  font-weight: 600;
 }
 
 .old-price {
@@ -88,6 +89,8 @@ h4{
 
 /* END UTILITIES */
 
+
+/* IMMAGINI PRODOTTI */
 
 .prod-1{
   background-image: url(../img/1.webp);
@@ -111,4 +114,28 @@ h4{
 
 .prod-3:hover{
   background-image: url(../img/3b.webp);
+}
+
+.prod-4{
+  background-image: url(../img/4.webp);
+}
+
+.prod-4:hover{
+  background-image: url(../img/4b.webp);
+}
+
+.prod-5{
+  background-image: url(../img/5.webp);
+}
+
+.prod-5:hover{
+  background-image: url(../img/5b.webp);
+}
+
+.prod-6{
+  background-image: url(../img/6.webp);
+}
+
+.prod-6:hover{
+  background-image: url(../img/6b.webp);
 }
