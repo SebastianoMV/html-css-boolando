@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.product{
+  width: 280px;
+  height: 400px;
+  display: inline-block;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  margin: 20px 5px;
+}
+
+.heart{
+  position: absolute;
+  right: 0;
+  top: 10px;
+  padding: 10px;
+  background-color: white;
+}
+
+
+.prod-1{
+  background-image: url(../img/1.webp);
+}
+
+.prod-1:hover{
+  background-image: url(../img/1b.webp);
+}
+
+.prod-2{
+  background-image: url(../img/2.webp);
+}
+
+.prod-2:hover{
+  background-image: url(../img/2b.webp);
+}
+
+.prod-3{
+  background-image: url(../img/3.webp);
+}
+
+.prod-3:hover{
+  background-image: url(../img/3b.webp);
+}
