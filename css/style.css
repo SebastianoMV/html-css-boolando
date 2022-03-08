@@ -12,25 +12,24 @@
  }
 
 .row{
-  width: 90%;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 50px;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 15px;
+  min-width: 500px;
 }
 
 .product{
-  width: 212px;
-  height: 300px;
+  width: 33%;
   display: inline-block;
-  background-position: center;
-  background-size: contain;
   position: relative;
-  margin: 20px 5px;
+  margin: 20px 0px;
   cursor: pointer;
 }
 
 .heart{
+  text-align: center;
   position: absolute;
+  font-size: 15px;
   right: 0;
   top: 10px;
   width: 25px;
@@ -42,19 +41,17 @@
 .foot-img{
   position: absolute;
   bottom: 10px;
+  left: 0;
   color: white;
 }
 
 .foot-img .discount{
-  float: left;
   background-color: red;
-  padding: 2px;
   margin-right: 2px;
-  
+  padding: 2px;
 }
 
 .foot-img .sostenibile{
-  float: left;
   background-color: green;
   padding: 2px;
 }
@@ -84,58 +81,24 @@ h4{
   content: '\20AC';
 }
 
+img{
+  width: 100%;
+  display: inline-block;
+}
 
-
+.img-hover{
+  display: none;
+}
 
 /* END UTILITIES */
 
 
 /* IMMAGINI PRODOTTI */
 
-.prod-1{
-  background-image: url(../img/1.webp);
+.product:hover .img-stock{
+  display: none;
 }
 
-.prod-1:hover{
-  background-image: url(../img/1b.webp);
-}
-
-.prod-2{
-  background-image: url(../img/2.webp);
-}
-
-.prod-2:hover{
-  background-image: url(../img/2b.webp);
-}
-
-.prod-3{
-  background-image: url(../img/3.webp);
-}
-
-.prod-3:hover{
-  background-image: url(../img/3b.webp);
-}
-
-.prod-4{
-  background-image: url(../img/4.webp);
-}
-
-.prod-4:hover{
-  background-image: url(../img/4b.webp);
-}
-
-.prod-5{
-  background-image: url(../img/5.webp);
-}
-
-.prod-5:hover{
-  background-image: url(../img/5b.webp);
-}
-
-.prod-6{
-  background-image: url(../img/6.webp);
-}
-
-.prod-6:hover{
-  background-image: url(../img/6b.webp);
+.product:hover .img-hover{
+  display: inline-block;
 }
